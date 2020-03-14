@@ -5,9 +5,7 @@ class NavBar extends Component {
     return (
       <div className="navbar">
         Navbar
-        <span className="badge badge-secondary ">
-          {this.props.totalCounter}
-        </span>
+        <span className="badge badge-secondary">{this.props.totalCounter}</span>
       </div>
     );
   }
